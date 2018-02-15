@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    height: 10px;
+    background-color: #e9282a;
+    width: 100%;
+}
+
+.main {
+    background-color: #577fdb;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.site-icon {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    transform: rotate(-20deg);
+}
+
+.blastoise,
+.charizard {
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blastoise {
+    left: 70px;
+}
+
+.charizard {
+    right: 70px;
+}
+
+.search-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.search-container label {
+    display: block;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+}
+
+.search-container input {
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+    color: #e9282a;
+    border-radius: 7px;
+    padding: 5px 5px;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.search-container input::placeholder {
+    color: #e9282b9f;
+}
+
+.search-container button {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    padding: 5px 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #e9282a;
+    color: #fff;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: #e9282a;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
