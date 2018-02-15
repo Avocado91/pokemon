@@ -68,6 +68,7 @@ header {
     color: #e9282a;
     border-radius: 7px;
     padding: 5px 5px;
+    font-weight: 100;
 }
 
 .search-container input:focus {
@@ -75,7 +76,8 @@ header {
 }
 
 .search-container input::placeholder {
-    color: #e9282b9f;
+    color: #e9282b96;
+    font-weight: 100;
 }
 
 .search-container button {
@@ -92,6 +94,10 @@ header {
     color: #fff;
     font-weight: 100;
     cursor: pointer;
+}
+
+.search-container button:focus {
+    outline: none;
 }
 
 footer {
