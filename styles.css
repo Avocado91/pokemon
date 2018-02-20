@@ -86,6 +86,8 @@ footer {
     font-weight: 100;
 }
 
+/**************************************************** MODAL ************************************************************/
+
 .modal {
     position: absolute;
     width: 95%;
@@ -93,6 +95,53 @@ footer {
     top: 2.5%;
     left: 2.5%;
     background-color: rgba(255, 255, 255, .9);
-    z-index: 2;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.left {
+    width: 40%;
+}
+
+.pokemon-image {
+    width: 100%;
+}
+
+.evolutions {
+    width: 100%;
+    height: 23%;
+    display: flex;
+}
+
+.pokemon-container{
+    height: 100%;
+    width: 33%;
+    text-align: center;
+}
+
+.pokemon-container img {
+    width: 75%;
+    height: 75%;
+}
+
+.right {
+    width: 45%;
+}
+
+.pokemon-name {
+    margin-top: 1.2rem;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #e9282a;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
